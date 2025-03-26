@@ -13,7 +13,7 @@ except FileNotFoundError:
     print("Error: config/config.yaml not found. Using default configurations.")
     config = {
         'data': {
-            'data_file_path': 'D:/Wells Hackathon/generated_reconciliation_data.csv',
+            'data_file_path': 'data/generated_reconciliation_data.csv',
             'isolation_forest_model_path': 'isolation_forest_model.pkl',
             'kmeans_model_path': 'kmeans_model.pkl',
             'label_encoder_path': 'label_encoder.pkl',

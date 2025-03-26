@@ -1,0 +1,57 @@
+# config.yaml
+llm:
+  enabled: 'false'
+paths:
+  data_file:  'data/generated_reconciliation_data.csv'
+  anomaly_output: 'output/detected_anomalies_{timestamp}.csv'
+  log_file_name: 'logs/recon_anomaly_detection_{timestamp}.log'
+  
+email:
+  sender: kumaradev.hackathon@gmail.com
+  password: 'test'
+  recipient: kumaradev.hackathon@gmail.com, vijay.jeyam@yahoo.com
+api_endpoints: 
+  resolution_task: https://servicenow.com/api/create_task
+data_validation:
+  quantity_threshold: 10 # example value, adjust as needed.
+api_keys: 
+  openai: 'test'
+data:
+  data_file_path: 'data/generated_reconciliation_data.csv'
+  isolation_forest_model_path: 'models/isolation_forest_model.pkl'
+  kmeans_model_path: 'models/kmeans_model.pkl'
+  label_encoder_path: 'models/label_encoder.pkl'
+  contamination_rate: 0.05
+  random_seed: 42
+  n_clusters: 5
+  rolling_windows: [7, 14, 30]
+  quantity_diff_column: 'QUANTITYDIFFERENCE'
+  impact_price_column: 'IMPACT_PRICE'
+  impact_quantity_column: 'IMPACT_QUANTITY'
+  risk_date_column: 'RISKDATE'
+  desk_name_column: 'DESKNAME'
+  features_columns:
+    - 'QUANTITYDIFFERENCE'
+    - 'IMPACT_PRICE'
+    - 'IMPACT_QUANTITY'
+    - 'day_of_week'
+    - 'month'
+    - 'deskname_encoded'
+    - 'quantity_mean_7d'
+    - 'price_std_7d'
+    - 'quantity_diff_lag1'
+jira:
+  url: "https://jira.atlassian.net"
+  username: "kumaradev.hackathon@gmail.com"
+  api_token: "api-token-from-jira"
+  project_key: "RECON"  # Replace with your actual project key
+  issue_type: "Task"    # or "Bug", "Story", etc.
+api_keys:
+  openai: "openai-key"
+
+paths:
+  data_file: "data/generated_reconciliation_data.csv"
+  anomaly_output: "data/detected_anomalies_{timestamp}.csv"
+
+data_validation:
+  quantity_threshold: 10

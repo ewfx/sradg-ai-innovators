@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pandas
+pyyaml
+scikit-learn
+openai
+email-validator
+python-multipart
+aiofiles
+aiohttp
+websockets
+numpy
+scikit-learn
+pyyaml
+shelve3k
+ratelimit
+tenacity

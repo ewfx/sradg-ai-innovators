@@ -1,0 +1,2 @@
+TRADEID,RISKDATE,DESKNAME,QUANTITYDIFFERENCE,IMPACT_PRICE,IMPACT_QUANTITY,COMMENT,day_of_week,month,quantity_mean_7d,price_std_7d,quantity_mean_14d,price_std_14d,quantity_mean_30d,price_std_30d,quantity_diff_lag1,deskname_encoded,Anomaly,Pattern_Cluster,Feedback,Feedback_Details,Ticket_ID,Resolution_Task_ID,Anomaly_Category,Resolution_Summary
+456,2023-10-27 11:00:00,DeskB,2.0,50.0,1.0,Rounding error,4,10,,,,,,,-13.0,-1,Yes,2,Pending User Review,,,,LLM Disabled,Resolution summary unavailable.

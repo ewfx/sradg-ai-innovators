@@ -1,0 +1,201 @@
+2025-03-26 19:51:09,027 - INFO - {'message': 'Models loaded successfully.'}
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 19:51:40,087 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:51:40,096 - INFO - {'message': 'Features created.'}
+2025-03-26 19:51:40,096 - INFO - Using pre-trained Isolation Forest model.
+2025-03-26 19:51:40,102 - INFO - {'message': 'Anomalies detected using isolation_forest.', 'count': 7}
+2025-03-26 19:51:40,102 - INFO - Anomaly predictions: [-1 -1 -1 -1 -1 -1 -1]
+2025-03-26 19:51:40,113 - INFO - Feature values for anomaly detection:
+   QUANTITYDIFFERENCE  IMPACT_PRICE  IMPACT_QUANTITY  ...  quantity_mean_7d  price_std_7d  quantity_diff_lag1
+0                15.0         100.0              5.0  ...          0.000000      0.000000                 0.0
+1                 2.0          50.0              1.0  ...          0.000000      0.000000               -13.0
+2                50.0         200.0             10.0  ...          0.000000      0.000000                48.0
+3               -30.0         150.0             -6.0  ...          0.000000      0.000000               -80.0
+4                25.0         180.0              7.0  ...          0.000000      0.000000                55.0
+5               -40.0         220.0             -9.0  ...          0.000000      0.000000               -65.0
+6                60.0         250.0             12.0  ...         11.714286     69.965978               100.0
+
+[7 rows x 9 columns]
+2025-03-26 19:51:40,159 - INFO - {'message': 'Data clustered.'}
+2025-03-26 19:51:40,161 - INFO - {'message': 'Feedback mechanism applied.'}
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:40,371 - INFO - LLM is disabled via config.
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa4590 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa5520 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa40b0 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa48f0 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa5640 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa5610 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2069efa4c20 state=finished raised TypeError>]
+2025-03-26 19:51:54,813 - INFO - {'message': 'Data consistency validation applied.', 'consistent_rows': 1}
+2025-03-26 19:51:54,816 - INFO - {'message': '0 anomalies resolved via agentic AI.'}
+2025-03-26 19:51:54,816 - INFO - {'message': 'Anomalies saved.', 'path': 'data/detected_anomalies_20250326_195154.csv'}
+2025-03-26 19:51:54,816 - INFO - Output file saved to: data/detected_anomalies_20250326_195154.csv
+2025-03-26 19:51:54,844 - INFO - Content of saved DataFrame:
+   TRADEID            RISKDATE DESKNAME  ...  Resolution_Task_ID  Anomaly_Category               Resolution_Summary
+1      456 2023-10-27 11:00:00    DeskB  ...                          LLM Disabled  Resolution summary unavailable.
+
+[1 rows x 25 columns]
+2025-03-26 19:51:57,167 - ERROR - {'message': 'Error sending email.', 'error': "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-227811b8075sm109964855ad.128 - gsmtp')"}
+2025-03-26 19:51:57,167 - ERROR - {'message': 'Batch anomaly processing error.', 'error': 'too many values to unpack (expected 2)'}
+2025-03-26 19:55:43,123 - INFO - {'message': 'Models loaded successfully.'}
+2025-03-26 19:56:00,244 - INFO - {'message': 'Models loaded successfully.'}
+2025-03-26 19:56:10,160 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:56:10,161 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 19:56:10,161 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 19:56:10,161 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:56:10,161 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 19:56:10,161 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 19:56:10,161 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:56:10,161 - INFO - {'message': 'Features created.'}
+2025-03-26 19:56:10,161 - INFO - Using pre-trained Isolation Forest model.
+2025-03-26 19:56:10,161 - INFO - {'message': 'Anomalies detected using isolation_forest.', 'count': 7}
+2025-03-26 19:56:10,161 - INFO - Anomaly predictions: [-1 -1 -1 -1 -1 -1 -1]
+2025-03-26 19:56:10,161 - INFO - Feature values for anomaly detection:
+   QUANTITYDIFFERENCE  IMPACT_PRICE  IMPACT_QUANTITY  ...  quantity_mean_7d  price_std_7d  quantity_diff_lag1
+0                15.0         100.0              5.0  ...          0.000000      0.000000                 0.0
+1                 2.0          50.0              1.0  ...          0.000000      0.000000               -13.0
+2                50.0         200.0             10.0  ...          0.000000      0.000000                48.0
+3               -30.0         150.0             -6.0  ...          0.000000      0.000000               -80.0
+4                25.0         180.0              7.0  ...          0.000000      0.000000                55.0
+5               -40.0         220.0             -9.0  ...          0.000000      0.000000               -65.0
+6                60.0         250.0             12.0  ...         11.714286     69.965978               100.0
+
+[7 rows x 9 columns]
+2025-03-26 19:56:10,228 - INFO - {'message': 'Data clustered.'}
+2025-03-26 19:56:10,228 - INFO - {'message': 'Feedback mechanism applied.'}
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:10,461 - INFO - LLM is disabled via config.
+2025-03-26 19:56:21,648 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939c44d0 state=finished raised TypeError>]
+2025-03-26 19:56:21,648 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939c57f0 state=finished raised TypeError>]
+2025-03-26 19:56:21,648 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939c4830 state=finished raised TypeError>]
+2025-03-26 19:56:21,648 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939c5460 state=finished raised TypeError>]
+2025-03-26 19:56:23,057 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939c5550 state=finished raised TypeError>]
+2025-03-26 19:56:23,057 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939ba420 state=finished raised TypeError>]
+2025-03-26 19:56:24,604 - ERROR - LLM summary generation failed: RetryError[<Future at 0x192939c5850 state=finished raised TypeError>]
+2025-03-26 19:56:24,607 - INFO - {'message': 'Data consistency validation applied.', 'consistent_rows': 1}
+2025-03-26 19:56:24,610 - INFO - {'message': '0 anomalies resolved via agentic AI.'}
+2025-03-26 19:56:24,621 - INFO - {'message': 'Anomalies saved.', 'path': 'data/detected_anomalies_20250326_195624.csv'}
+2025-03-26 19:56:24,621 - INFO - Output file saved to: data/detected_anomalies_20250326_195624.csv
+2025-03-26 19:56:24,718 - INFO - Content of saved DataFrame:
+   TRADEID            RISKDATE DESKNAME  ...  Resolution_Task_ID  Anomaly_Category               Resolution_Summary
+1      456 2023-10-27 11:00:00    DeskB  ...                          LLM Disabled  Resolution summary unavailable.
+
+[1 rows x 25 columns]
+2025-03-26 19:56:27,052 - ERROR - {'message': 'Error sending email.', 'error': "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-227811da347sm109974145ad.161 - gsmtp')"}
+2025-03-26 19:56:29,505 - ERROR - {'message': 'Error sending email.', 'error': "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7390611d7d4sm12235132b3a.86 - gsmtp')"}
+2025-03-26 19:58:11,432 - INFO - {'message': 'Models loaded successfully.'}
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 19:58:19,362 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 19:58:19,362 - INFO - {'message': 'Features created.'}
+2025-03-26 19:58:19,362 - INFO - Using pre-trained Isolation Forest model.
+2025-03-26 19:58:19,379 - INFO - {'message': 'Anomalies detected using isolation_forest.', 'count': 7}
+2025-03-26 19:58:19,379 - INFO - Anomaly predictions: [-1 -1 -1 -1 -1 -1 -1]
+2025-03-26 19:58:19,379 - INFO - Feature values for anomaly detection:
+   QUANTITYDIFFERENCE  IMPACT_PRICE  IMPACT_QUANTITY  ...  quantity_mean_7d  price_std_7d  quantity_diff_lag1
+0                15.0         100.0              5.0  ...          0.000000      0.000000                 0.0
+1                 2.0          50.0              1.0  ...          0.000000      0.000000               -13.0
+2                50.0         200.0             10.0  ...          0.000000      0.000000                48.0
+3               -30.0         150.0             -6.0  ...          0.000000      0.000000               -80.0
+4                25.0         180.0              7.0  ...          0.000000      0.000000                55.0
+5               -40.0         220.0             -9.0  ...          0.000000      0.000000               -65.0
+6                60.0         250.0             12.0  ...         11.714286     69.965978               100.0
+
+[7 rows x 9 columns]
+2025-03-26 19:58:19,434 - INFO - {'message': 'Data clustered.'}
+2025-03-26 19:58:19,434 - INFO - {'message': 'Feedback mechanism applied.'}
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:19,648 - INFO - LLM is disabled via config.
+2025-03-26 19:58:26,714 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e4685430 state=finished raised TypeError>]
+2025-03-26 19:58:30,818 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e4684a10 state=finished raised TypeError>]
+2025-03-26 19:58:30,818 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e4679c10 state=finished raised TypeError>]
+2025-03-26 19:58:32,762 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e4685070 state=finished raised TypeError>]
+2025-03-26 19:58:32,762 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e46853d0 state=finished raised TypeError>]
+2025-03-26 19:58:32,762 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e4685400 state=finished raised TypeError>]
+2025-03-26 19:58:32,762 - ERROR - LLM summary generation failed: RetryError[<Future at 0x2c8e4685460 state=finished raised TypeError>]
+2025-03-26 19:58:32,766 - INFO - {'message': 'Data consistency validation applied.', 'consistent_rows': 1}
+2025-03-26 19:58:32,766 - INFO - {'message': '0 anomalies resolved via agentic AI.'}
+2025-03-26 19:58:32,766 - INFO - {'message': 'Anomalies saved.', 'path': 'data/detected_anomalies_20250326_195832.csv'}
+2025-03-26 19:58:32,766 - INFO - Output file saved to: data/detected_anomalies_20250326_195832.csv
+2025-03-26 19:58:32,794 - INFO - Content of saved DataFrame:
+   TRADEID            RISKDATE DESKNAME  ...  Resolution_Task_ID  Anomaly_Category               Resolution_Summary
+1      456 2023-10-27 11:00:00    DeskB  ...                          LLM Disabled  Resolution summary unavailable.
+
+[1 rows x 25 columns]
+2025-03-26 19:58:36,896 - INFO - {'message': 'Email sent.', 'recipient': 'kumaradev.hackathon@gmail.com, vijay.jeyam@yahoo.com'}
+2025-03-26 19:58:40,267 - INFO - {'message': 'Email sent.', 'recipient': 'kumaradev.hackathon@gmail.com, vijay.jeyam@yahoo.com'}
+2025-03-26 21:42:11,851 - INFO - {'message': 'Models loaded successfully.'}
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskB' encountered. Using default value.
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskC' encountered. Using default value.
+2025-03-26 21:45:48,749 - WARNING - Unseen label 'DeskA' encountered. Using default value.
+2025-03-26 21:45:48,764 - INFO - {'message': 'Features created.'}
+2025-03-26 21:45:48,764 - INFO - Using pre-trained Isolation Forest model.
+2025-03-26 21:45:48,764 - INFO - {'message': 'Anomalies detected using isolation_forest.', 'count': 7}
+2025-03-26 21:45:48,764 - INFO - Anomaly predictions: [-1 -1 -1 -1 -1 -1 -1]
+2025-03-26 21:45:48,764 - INFO - Feature values for anomaly detection:
+   QUANTITYDIFFERENCE  IMPACT_PRICE  IMPACT_QUANTITY  ...  quantity_mean_7d  price_std_7d  quantity_diff_lag1
+0                15.0         100.0              5.0  ...          0.000000      0.000000                 0.0
+1                 2.0          50.0              1.0  ...          0.000000      0.000000               -13.0
+2                50.0         200.0             10.0  ...          0.000000      0.000000                48.0
+3               -30.0         150.0             -6.0  ...          0.000000      0.000000               -80.0
+4                25.0         180.0              7.0  ...          0.000000      0.000000                55.0
+5               -40.0         220.0             -9.0  ...          0.000000      0.000000               -65.0
+6                60.0         250.0             12.0  ...         11.714286     69.965978               100.0
+
+[7 rows x 9 columns]
+2025-03-26 21:45:48,832 - INFO - {'message': 'Data clustered.'}
+2025-03-26 21:45:48,834 - INFO - {'message': 'Feedback mechanism applied.'}
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:49,062 - INFO - LLM is disabled via config.
+2025-03-26 21:45:59,910 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d985400 state=finished raised TypeError>]
+2025-03-26 21:45:59,910 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d985760 state=finished raised TypeError>]
+2025-03-26 21:46:02,308 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d9857c0 state=finished raised TypeError>]
+2025-03-26 21:46:02,308 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d985790 state=finished raised TypeError>]
+2025-03-26 21:46:02,308 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d9857f0 state=finished raised TypeError>]
+2025-03-26 21:46:02,308 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d9856a0 state=finished raised TypeError>]
+2025-03-26 21:46:02,308 - ERROR - LLM summary generation failed: RetryError[<Future at 0x1f77d984da0 state=finished raised TypeError>]
+2025-03-26 21:46:02,308 - INFO - {'message': 'Data consistency validation applied.', 'consistent_rows': 1}
+2025-03-26 21:46:02,308 - INFO - {'message': '0 anomalies resolved via agentic AI.'}
+2025-03-26 21:46:02,312 - INFO - {'message': 'Anomalies saved.', 'path': 'data/detected_anomalies_20250326_214602.csv'}
+2025-03-26 21:46:02,313 - INFO - Output file saved to: data/detected_anomalies_20250326_214602.csv
+2025-03-26 21:46:02,337 - INFO - Content of saved DataFrame:
+   TRADEID            RISKDATE DESKNAME  ...  Resolution_Task_ID  Anomaly_Category               Resolution_Summary
+1      456 2023-10-27 11:00:00    DeskB  ...                          LLM Disabled  Resolution summary unavailable.
+
+[1 rows x 25 columns]
+2025-03-26 21:46:06,473 - ERROR - {'message': 'Error sending email.', 'error': "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73947de4982sm3574932b3a.168 - gsmtp')"}
+2025-03-26 21:46:10,539 - ERROR - {'message': 'Error sending email.', 'error': "(535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2278120a5b6sm112025645ad.252 - gsmtp')"}
